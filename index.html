@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV#3</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container" id="container">
+      <header class="header">
+         <div class="header__logo">
+            <h1 class="header__title">
+               <a href="#container" class="header__title-a">Andrei Naumenko</a>
+            </h1>
+            <h2 class="header__subtitle">
+               <a href="#container" class="header__subtitle-a">Junior Front-end Developer</a>
+            </h2>
+         </div>
+         <nav class="header__nav">
+            <ul class="header__ul">
+               <li class="header__li"><a href="#about" class="header__li-a">ABOUT</a></li>
+               <li class="header__li"><a href="#contacts" class="header__li-a">CONTACTS</a></li>
+               <li class="header__li"><a href="#education" class="header__li-a">EDUCATION</a></li>
+               <li class="header__li"><a href="#code" class="header__li-a">CODE</a></li>
+               <li class="header__li"><a href="#skills" class="header__li-a">SKILLS</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="main">
+         <section class="about" id="about">
+            <div class="about__img">
+               <img src="./img/IMG.jpg" alt="not img" class="about__photo" title="img">
+            </div>
+            <div class="about__text">
+               <h2 class="title">About me</h2>
+               <p class="about__text">My name is Andrei Naumenko. I am 29 years old. I am a Junior front-end developer. I really like to develop websites and solve tasks on JS. Passionate about learning and development with a desire to apply skills on a larger development team. Eager to tackle more complex problems and continue to find ways to maximize user efficiency.</p>
+            </div>
+         </section>
+         <section class="contacts" id="contacts">
+            <h2 class="title">Contacts</h2>
+            <div class="contacts__item">
+               <div class="contacts__in">
+                  <a href="https://www.linkedin.com/in/andrei-naumenko-63766921b/" ><img src="./png/linkedin.png" class="png" alt="not svg" title="svg"></a>
+               </div>
+               <div class="contacts__git">
+                  <a href="https://github.com/naum8" ><img src="./png/github.svg" class="png" alt="not svg" title="svg"></a>
+               </div>
+               <div class="contacts__g">
+                  <a href="mailto:6110814a@gmail.com" ><img src="./png/google.svg" class="png" alt="not svg" title="svg"></a>
+               </div>
+               <div class="contacts__telegram">
+                  <a href="https://telegram.me/naum088" ><img src="./png/telegram.svg" class="png" alt="not svg" title="svg"></a>
+               </div>
+               <div class="contacts__call">
+                  <a href="tel:+375296110814" ><img src="./png/call.svg" class="png" alt="not svg" title="svg"></a>
+               </div>
+            </div>
+         </section>
+         <section class="education" id="education">
+            <h2 class="title">Education</h2>
+            <p class="education__uni education__center">Mogilev State University of Food</p>
+            <p class="education__center education__padding education__font">Specialization: Engineer <span class="education__span">2010-2015</span></p>
+            <p class="education__text education__center education__font">Specialization: Financier <span class="education__span">2013-2015</span></p>
+         </section>
+         <section class="code" id="code">
+            <h2 class="title">Code</h2>
+            <div class="code__pre">
+               <pre>
+                  <code>function mergeArrays(arr1, arr2) {
+                     let newArr = arr1.concat(arr2);
+                     let result = [...new Set(newArr)];
+                     //console.log(result);
+                     result.sort(function(a, b) {
+                        return a - b;
+                     });
+                     console.log(result);
+                     return result
+                  }</code>
+                  </pre>
+            </div>
+         </section>
+         <section class="skills" id="skills">
+            <h2 class="title">Skills</h2>
+            <div class="skills__item">
+               <p>HTML/CSS</p>
+               <p>JavaScript</p>
+               <p>JQuery</p>
+               <p>Git</p>
+               <p>MVC</p>
+               <p>SPA</p>
+               <p>Practical experience in cross-browser and adaptive layout</p>
+               <p>Experience with Figma</p>
+               <p>API</p>
+               <p>Less/Sass</p>
+               <p>BEM</p>
+               <p>SVG/Canvas</p>
+               <p class="skills__english">English Proficiency: A2</p>
+               <div class="skills__pr">
+                  <a href="https://naum8.github.io/planetarium.github.io/#main" target="_blank"><img src="./img/Sc.png" alt="not img" title="img" class="skills__img"></a>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="contacts__git">
+            <a href="https://github.com/naum8" ><img src="./png/github.svg" class="png" alt="not svg" title="svg"></a>
+         </div>
+         <div class="footer-age">2022</div>
+         <div class="footer__rs">
+            <a href="https://rs.school/js/"><img src="./png/rs.svg" alt="not img" class="footer__img"></a>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>
