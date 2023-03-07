@@ -130,11 +130,25 @@
    color: rgb(247, 203, 69);
    font-size: 28px;
 }
-.skills__img {
-   width: 700px;
-   height: 350px;
-   margin: 20px 0 0 130px;
-   border: 2px solid white;
+.skills__pr {
+   margin: 10px 10px ;
+}
+
+.skills__pr-li {
+   list-style-type: none;
+}
+.skills__pr-a {
+   color: white;
+   text-decoration:none;
+   font-size: 30px;
+}
+.skills__pr-list {
+   color: rgb(247, 203, 69);
+   font-size: 40px;
+}
+.skills__pr-a:hover {
+   color: rgb(247, 203, 69);
+   transition: 0.6s;
 }
 /* footer */
 .footer {
